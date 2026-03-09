@@ -1,5 +1,5 @@
-#ifndef __WIFI_H
-#define __WIFI_H
+#ifndef __WIFI_Config_H
+#define __WIFI_Config_H
 
 
 #include "esp_wifi.h"
@@ -27,3 +27,4 @@ void smartconfig_task(void *param);
 void __Wifi_Start(void);
 
 #endif /* __WIFI_H__ */
+
