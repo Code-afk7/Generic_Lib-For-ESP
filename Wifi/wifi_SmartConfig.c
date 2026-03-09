@@ -1,7 +1,5 @@
 // Local Header files 
 #include "wifi.h"
-#include "Hardware/hardware.h"
-#include "DS1307/DS1307.h"
 
 // Wifi Header files
 #include "esp_wifi.h"
@@ -281,3 +279,4 @@ void __Wifi_Start(void)
         ESP_LOGE(TAG, "WiFi connection ultimately failed");
     }
 }
+
